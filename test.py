@@ -171,15 +171,26 @@ class TestApp:
             f.write("\nMissed Subsections:\n")
             for subsec in self.missed_subsections:
                 f.write(f"- {subsec}\n")
-            f.write(f"\n\nTrainer Signature:________________________________________\n\nTrainee Signature:________________________________________  Date:__________________\n")
+            f.write(f"\n\nTrainer Signature:________________________________________\n\nTrainee Signature:________________________________________\n\n  Date:__________________\n")
 
         with open(f'Results_{self.user_name}_{test["name"]}.doc', 'w') as f:
             f.write(f"Test Results for {self.user_name} {test['name']}\n")
             f.write("=" * 40 + "\n")
+            # Loop through sections and subsections to match user answers with correct answers
             for answer in self.user_answers:
-                # if answer['selected_index'] == answer['question_index']:                                                                                                  
-                f.write(f"Subsection: {answer['subsection_name']}, Question Index: {answer['question_index']}, Selected Index: {answer['selected_index']}\n")
-            f.write(f"\n\nTrainer Signature:________________________________________\n\nTrainee Signature:________________________________________  Date:__________________\n")
+                subsection_name = answer['subsection_name']
+                question_idx = answer['question_index']
+                selected_idx = answer['selected_index']
+                
+                # Find the correct answer index from the test data
+                for section in test['sections']:
+                    for subsection in section['subsections']:
+                        if f"{section['name']} - {subsection['name']}" == subsection_name:
+                            if 'questions' in subsection and len(subsection['questions']) > question_idx:
+                                correct_idx = subsection['questions'][question_idx]['correct_index']
+                                f.write(f"Subsection: {subsection_name}\nQuestion Index: {question_idx}\nCorrect Answer Index: {correct_idx}\nSelected Index: {selected_idx}\n{'=' * 40}\n")
+                                break
+            f.write(f"\n\nTrainer Signature:________________________________________\n\nTrainee Signature:________________________________________\n\n  Date:__________________\n")
 
         tk.Label(self.root, text="Test Complete", bg="white", fg="black", font=("Arial", 10)).pack(pady=10)
         tk.Label(self.root, text="Missed subsections (weaknesses):", bg="white", fg="black", font=("Arial", 10)).pack(pady=5)

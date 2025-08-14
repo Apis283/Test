@@ -12,22 +12,22 @@
                                 {
                                     "text": "What is a key characteristic of Non-Secure Networks (NIPR)?",
                                     "options": [
-                                        "e. Operates with higher encryption than SIPR",
-                                        "c. Employs commercial off-the-shelf (COTS) hardware/software",
+                                        "a. Limited to battlefield operations",
                                         "b. Requires encrypted keys issued by COMSEC",
+                                        "c. Employs commercial off-the-shelf (COTS) hardware/software",
                                         "d. Uses proprietary DoD hardware exclusively",
-                                        "a. Limited to battlefield operations"
+                                        "e. Operates with higher encryption than SIPR"
                                     ],
-                                    "correct_index": 1
+                                    "correct_index": 2
                                 },
                                 {
                                     "text": "Which protocol is commonly used in Non-Secure Networks for secure communication?",
                                     "options": [
+                                        "a. JWICS",
                                         "b. SNMP",
-                                        "e. Taclanes",
                                         "c. SAP encryption",
                                         "d. TLS/SSL",
-                                        "a. JWICS"
+                                        "e. Taclanes"
                                     ],
                                     "correct_index": 3
                                 }
@@ -40,23 +40,23 @@
                                     "text": "What distinguishes Secure Networks like SIPR from Non-Secure Networks?",
                                     "options": [
                                         "a. Operates without COMSEC oversight",
-                                        "c. Use of COTS hardware",
-                                        "e. Always encrypted in transit with higher encryption than SSL",
                                         "b. Limited to short-range communication",
-                                        "d. No ingress or egress ports"
+                                        "c. Use of COTS hardware",
+                                        "d. No ingress or egress ports",
+                                        "e. Always encrypted in transit with higher encryption than SSL"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 4
                                 },
                                 {
                                     "text": "What role does the COMSEC office play in Secure Networks?",
                                     "options": [
-                                        "e. Manages satellite communications",
-                                        "d. Issues encrypted keys for data transmission",
+                                        "a. Assigns IP addresses",
                                         "b. Monitors firewall logs",
                                         "c. Configures routers for NIPR",
-                                        "a. Assigns IP addresses"
+                                        "d. Issues encrypted keys for data transmission",
+                                        "e. Manages satellite communications"
                                     ],
-                                    "correct_index": 1
+                                    "correct_index": 3
                                 }
                             ]
                         },
@@ -67,23 +67,23 @@
                                     "text": "What is a primary function of Nuclear Command, Control, and Communications Systems?",
                                     "options": [
                                         "a. Ensures information flow during a nuclear event",
-                                        "e. Manages battlefield network deployment",
-                                        "c. Monitors network traffic",
                                         "b. Encrypts data for NIPR networks",
-                                        "d. Facilitates satellite phone communication"
+                                        "c. Monitors network traffic",
+                                        "d. Facilitates satellite phone communication",
+                                        "e. Manages battlefield network deployment"
                                     ],
                                     "correct_index": 0
                                 },
                                 {
                                     "text": "What is a primary role of Global ASNT in Nuclear Command, Control, and Communications Systems?",
                                     "options": [
-                                        "e. Encrypting data for non-secure networks",
+                                        "a. Deploying ground-based battlefield networks",
+                                        "b. Providing secure communications to nuclear forces in austere environments",
                                         "c. Monitoring network performance",
                                         "d. Managing satellite phone connectivity",
-                                        "a. Deploying ground-based battlefield networks",
-                                        "b. Providing secure communications to nuclear forces in austere environments"
+                                        "e. Encrypting data for non-secure networks"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -93,24 +93,24 @@
                                 {
                                     "text": "What is an advantage of satellite-based Space Systems?",
                                     "options": [
-                                        "e. Harder to commandeer compared to terrestrial systems",
+                                        "a. Requires minimal power",
+                                        "b. Uses copper-based communication",
                                         "c. Easy to maintain and low cost",
                                         "d. Limited to short-range communication",
-                                        "b. Uses copper-based communication",
-                                        "a. Requires minimal power"
+                                        "e. Harder to commandeer compared to terrestrial systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 4
                                 },
                                 {
                                     "text": "Which of the following is an example of a Space System?",
                                     "options": [
+                                        "a. SIPR network",
+                                        "b. Starlink",
                                         "c. Battlefield tactical network",
                                         "d. AWACS airborne network",
-                                        "b. Starlink",
-                                        "e. NIPR network",
-                                        "a. SIPR network"
+                                        "e. NIPR network"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -121,23 +121,23 @@
                                     "text": "What is a key capability of Airborne Networks?",
                                     "options": [
                                         "a. Providing satellite phone connectivity",
+                                        "b. Assigning IP addresses",
                                         "c. Managing nuclear command and control",
                                         "d. AWACS utilize airborne networks for offensive and defensive operations",
-                                        "e. Deploying ground-based battlefield networks",
-                                        "b. Assigning IP addresses"
+                                        "e. Deploying ground-based battlefield networks"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 3
                                 },
                                 {
                                     "text": "How do Airborne Networks differ from Battlefield Networks?",
                                     "options": [
-                                        "d. They operate exclusively on the ground",
-                                        "e. They require COMSEC keys",
                                         "a. They use satellite-based communication only",
                                         "b. They rely on NIPR infrastructure",
-                                        "c. They are deployed on aircraft for aerial operations"
+                                        "c. They are deployed on aircraft for aerial operations",
+                                        "d. They operate exclusively on the ground",
+                                        "e. They require COMSEC keys"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 2
                                 }
                             ]
                         },
@@ -147,24 +147,24 @@
                                 {
                                     "text": "Where are Battlefield Networks primarily deployed?",
                                     "options": [
-                                        "b. On aircraft for AWACS operations",
                                         "a. In data centers",
-                                        "e. On the ground in theater forward-deployed environments",
+                                        "b. On aircraft for AWACS operations",
+                                        "c. In non-secure NIPR environments",
                                         "d. In space for satellite communication",
-                                        "c. In non-secure NIPR environments"
+                                        "e. On the ground in theater forward-deployed environments"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 4
                                 },
                                 {
                                     "text": "What is a primary function of Battlefield Networks?",
                                     "options": [
-                                        "d. Managing nuclear command and control",
                                         "a. Assigning IP addresses",
                                         "b. Providing satellite phone connectivity",
-                                        "e. Encrypting NIPR traffic",
-                                        "c. Supporting secure communication in forward-deployed theaters"
+                                        "c. Supporting secure communication in forward-deployed theaters",
+                                        "d. Managing nuclear command and control",
+                                        "e. Encrypting NIPR traffic"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 2
                                 }
                             ]
                         }
@@ -179,24 +179,24 @@
                                 {
                                     "text": "What is the purpose of a risk assessment in cybersecurity?",
                                     "options": [
+                                        "a. To monitor user behavior on DoD devices",
                                         "b. To issue encrypted keys",
                                         "c. To calculate if a risk is worth taking and assess vulnerabilities",
-                                        "e. To configure routers",
                                         "d. To encrypt network traffic",
-                                        "a. To monitor user behavior on DoD devices"
+                                        "e. To configure routers"
                                     ],
-                                    "correct_index": 1
+                                    "correct_index": 2
                                 },
                                 {
                                     "text": "What does assessing vulnerabilities help determine?",
                                     "options": [
+                                        "a. The assignment of IP addresses",
                                         "b. The speed of network traffic",
                                         "c. The encryption level of secure networks",
-                                        "e. The location of battlefield networks",
-                                        "a. The assignment of IP addresses",
-                                        "d. The potential weaknesses in a system"
+                                        "d. The potential weaknesses in a system",
+                                        "e. The location of battlefield networks"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 3
                                 }
                             ]
                         },
@@ -207,8 +207,8 @@
                                     "text": "How is network security applied to devices?",
                                     "options": [
                                         "a. By assigning static IP addresses",
-                                        "c. By monitoring nuclear command systems",
                                         "b. By deploying satellite communications",
+                                        "c. By monitoring nuclear command systems",
                                         "d. By issuing COMSEC keys",
                                         "e. By applying risk, threat, and vulnerability principles to network devices"
                                     ],
@@ -217,13 +217,13 @@
                                 {
                                     "text": "What role do firewalls play in network security?",
                                     "options": [
+                                        "a. Assign IP addresses",
+                                        "b. Issue encrypted keys",
                                         "c. Monitor user behavior",
                                         "d. Act as a boundary to segment and secure network sections",
-                                        "e. Manage satellite communication",
-                                        "b. Issue encrypted keys",
-                                        "a. Assign IP addresses"
+                                        "e. Manage satellite communication"
                                     ],
-                                    "correct_index": 1
+                                    "correct_index": 3
                                 }
                             ]
                         },
@@ -233,22 +233,22 @@
                                 {
                                     "text": "What is a key difference between stateful and stateless firewalls?",
                                     "options": [
-                                        "c. Stateful firewalls work in the same session; stateless require two rules",
-                                        "e. Stateful firewalls require two rules for communication; stateless work in the same session",
-                                        "d. Stateless firewalls use COMSEC keys; stateful do not",
                                         "a. Stateless firewalls are application-aware; stateful are not",
-                                        "b. Stateful firewalls assign IP addresses"
+                                        "b. Stateful firewalls assign IP addresses",
+                                        "c. Stateful firewalls work in the same session; stateless require two rules",
+                                        "d. Stateless firewalls use COMSEC keys; stateful do not",
+                                        "e. Stateful firewalls require two rules for communication; stateless work in the same session"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 2
                                 },
                                 {
                                     "text": "What does an application-aware firewall provide?",
                                     "options": [
                                         "a. IP address assignment",
-                                        "e. Encryption for secure networks",
-                                        "c. Enhanced control and visibility beyond basic IP/port/session data",
                                         "b. Satellite communication capabilities",
-                                        "d. Nuclear command and control functions"
+                                        "c. Enhanced control and visibility beyond basic IP/port/session data",
+                                        "d. Nuclear command and control functions",
+                                        "e. Encryption for secure networks"
                                     ],
                                     "correct_index": 2
                                 }
@@ -261,23 +261,23 @@
                                     "text": "What is the primary focus of incident response in cybersecurity?",
                                     "options": [
                                         "a. Assigning IP addresses",
-                                        "c. Issuing COMSEC keys",
                                         "b. Detecting, gathering info, and mitigating/recovering from bad events",
-                                        "e. Monitoring satellite communications",
-                                        "d. Encrypting network traffic"
+                                        "c. Issuing COMSEC keys",
+                                        "d. Encrypting network traffic",
+                                        "e. Monitoring satellite communications"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a common external element in cybersecurity incidents?",
                                     "options": [
                                         "a. VLAN assignment",
-                                        "d. NIPR network configuration",
-                                        "e. COMSEC key issuance",
                                         "b. A command-and-control (C2) element",
-                                        "c. Satellite phone connectivity"
+                                        "c. Satellite phone connectivity",
+                                        "d. NIPR network configuration",
+                                        "e. COMSEC key issuance"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -285,24 +285,24 @@
                             "name": "8.6.1 Acceptable Use / Behavior for Information Technology",
                             "questions": [
                                 {
-                                    "text": "What is the purpose of the DoD\u2019s acceptable use policy banners?",
+                                    "text": "What is the purpose of the DoD’s acceptable use policy banners?",
                                     "options": [
-                                        "b. To manage satellite communications",
                                         "a. To assign IP addresses",
+                                        "b. To manage satellite communications",
+                                        "c. To issue COMSEC keys",
                                         "d. To notify users that their activity on DoD devices may be monitored",
-                                        "e. To encrypt network traffic",
-                                        "c. To issue COMSEC keys"
+                                        "e. To encrypt network traffic"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 3
                                 },
                                 {
                                     "text": "What is a key principle of acceptable use for DoD IT?",
                                     "options": [
-                                        "c. Bypassing firewall restrictions",
+                                        "a. Assigning static IP addresses",
                                         "b. Using personal devices for DoD tasks",
-                                        "e. Sharing classified information freely",
+                                        "c. Bypassing firewall restrictions",
                                         "d. Being smart and responsible when using DoD hardware",
-                                        "a. Assigning static IP addresses"
+                                        "e. Sharing classified information freely"
                                     ],
                                     "correct_index": 3
                                 }
@@ -314,24 +314,24 @@
                                 {
                                     "text": "What does Information Protection (IP) Operations primarily focus on?",
                                     "options": [
-                                        "d. Protecting all information, including classification and vulnerability management",
                                         "a. Assigning IP addresses",
-                                        "c. Monitoring user behavior",
                                         "b. Managing satellite communications",
+                                        "c. Monitoring user behavior",
+                                        "d. Protecting all information, including classification and vulnerability management",
                                         "e. Deploying battlefield networks"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 3
                                 },
                                 {
                                     "text": "How does COMSEC relate to Information Protection?",
                                     "options": [
-                                        "e. It configures NIPR networks",
-                                        "b. It monitors firewall logs",
                                         "a. It assigns VLANs",
+                                        "b. It monitors firewall logs",
                                         "c. It provides keys for encrypting communications",
-                                        "d. It manages satellite systems"
+                                        "d. It manages satellite systems",
+                                        "e. It configures NIPR networks"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 2
                                 }
                             ]
                         },
@@ -341,24 +341,24 @@
                                 {
                                     "text": "What is a primary goal of Operations Security (OPSEC)?",
                                     "options": [
-                                        "b. Controlling information about troop movements and locations",
                                         "a. Assigning IP addresses",
-                                        "e. Issuing firewall rules",
+                                        "b. Controlling information about troop movements and locations",
+                                        "c. Encrypting network traffic",
                                         "d. Managing satellite communications",
-                                        "c. Encrypting network traffic"
+                                        "e. Issuing firewall rules"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
-                                    "text": "What does the phrase \u201cloose lips sink ships\u201d refer to in OPSEC?",
+                                    "text": "What does the phrase “loose lips sink ships” refer to in OPSEC?",
                                     "options": [
                                         "a. The use of satellite systems",
-                                        "d. The management of firewall logs",
-                                        "c. The need for encrypted communications",
                                         "b. The importance of safeguarding operational information",
+                                        "c. The need for encrypted communications",
+                                        "d. The management of firewall logs",
                                         "e. The assignment of IP addresses"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -368,24 +368,24 @@
                                 {
                                     "text": "What is the primary purpose of the TEMPEST Program?",
                                     "options": [
-                                        "c. To deploy battlefield networks",
-                                        "e. To encrypt network traffic",
-                                        "d. To issue COMSEC keys",
                                         "a. To assign IP addresses",
-                                        "b. To manage signal propagation and detect rogue signals"
+                                        "b. To manage signal propagation and detect rogue signals",
+                                        "c. To deploy battlefield networks",
+                                        "d. To issue COMSEC keys",
+                                        "e. To encrypt network traffic"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why must NIPR and SIPR systems be separated on the same desk?",
                                     "options": [
-                                        "e. To simplify COMSEC key issuance",
+                                        "a. To assign VLANs",
                                         "b. To enhance firewall performance",
-                                        "d. To improve network speed",
                                         "c. To mitigate signal radiation and crosstalk",
-                                        "a. To assign VLANs"
+                                        "d. To improve network speed",
+                                        "e. To simplify COMSEC key issuance"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 2
                                 }
                             ]
                         },
@@ -395,13 +395,13 @@
                                 {
                                     "text": "What is an example of Negligent Discharge of Classified Information (NDCI)?",
                                     "options": [
-                                        "e. Encrypting SIPR communications",
-                                        "b. Monitoring firewall logs",
                                         "a. Deploying satellite systems",
+                                        "b. Monitoring firewall logs",
                                         "c. Assigning IP addresses",
-                                        "d. Spilling classified data from a high-side to a low-side system"
+                                        "d. Spilling classified data from a high-side to a low-side system",
+                                        "e. Encrypting SIPR communications"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 3
                                 },
                                 {
                                     "text": "What is a step in responding to an NDCI incident?",
@@ -409,8 +409,8 @@
                                         "a. Assigning static IP addresses",
                                         "b. Reconfiguring firewalls",
                                         "c. Unplug computer, scrubbing servers and destroying hard drives",
-                                        "e. Deploying battlefield networks",
-                                        "d. Issuing new COMSEC keys"
+                                        "d. Issuing new COMSEC keys",
+                                        "e. Deploying battlefield networks"
                                     ],
                                     "correct_index": 2
                                 }
@@ -422,10 +422,10 @@
                                 {
                                     "text": "What is a function of Communications Security (COMSEC)?",
                                     "options": [
-                                        "d. Managing satellite systems",
-                                        "b. Issuing keys to encrypt communications",
                                         "a. Assigning IP addresses",
+                                        "b. Issuing keys to encrypt communications",
                                         "c. Monitoring network traffic",
+                                        "d. Managing satellite systems",
                                         "e. Configuring firewalls"
                                     ],
                                     "correct_index": 1
@@ -433,13 +433,13 @@
                                 {
                                     "text": "Who manages and disseminates COMSEC keys?",
                                     "options": [
-                                        "c. The COMSEC office",
                                         "a. DHCP servers",
-                                        "d. Satellite operators",
                                         "b. Firewall administrators",
+                                        "c. The COMSEC office",
+                                        "d. Satellite operators",
                                         "e. Battlefield network teams"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 2
                                 }
                             ]
                         },
@@ -447,26 +447,26 @@
                             "name": "8.7.13 Confidentiality, Integrity, and Availability (CIA)",
                             "questions": [
                                 {
-                                    "text": "What does the \u201cIntegrity\u201d component of the CIA triad ensure?",
+                                    "text": "What does the “Integrity” component of the CIA triad ensure?",
                                     "options": [
                                         "a. IP addresses are assigned",
                                         "b. Data is encrypted in transit",
-                                        "e. Users are monitored",
                                         "c. Information is trustworthy and from the claimed source",
-                                        "d. Systems are always available"
+                                        "d. Systems are always available",
+                                        "e. Users are monitored"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 2
                                 },
                                 {
-                                    "text": "What does the \u201cAvailability\u201d component of the CIA triad focus on?",
+                                    "text": "What does the “Availability” component of the CIA triad focus on?",
                                     "options": [
+                                        "a. Assigning IP addresses",
+                                        "b. Ensuring systems are operational and accessible",
                                         "c. Issuing COMSEC keys",
                                         "d. Encrypting communications",
-                                        "a. Assigning IP addresses",
-                                        "e. Monitoring firewall logs",
-                                        "b. Ensuring systems are operational and accessible"
+                                        "e. Monitoring firewall logs"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -474,24 +474,24 @@
                             "name": "8.7.15 Authentication, Authorization, and Accounting (AAA)",
                             "questions": [
                                 {
-                                    "text": "What does the \u201cAuthentication\u201d component of AAA verify?",
+                                    "text": "What does the “Authentication” component of AAA verify?",
                                     "options": [
+                                        "a. The assignment of IP addresses",
                                         "b. That a user is who they claim to be",
-                                        "e. The location of battlefield networks",
-                                        "d. The speed of network traffic",
                                         "c. The encryption level of data",
-                                        "a. The assignment of IP addresses"
+                                        "d. The speed of network traffic",
+                                        "e. The location of battlefield networks"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
-                                    "text": "What is the purpose of the \u201cAccounting\u201d component of AAA?",
+                                    "text": "What is the purpose of the “Accounting” component of AAA?",
                                     "options": [
-                                        "d. To manage satellite systems",
-                                        "b. To track who has accessed a system",
-                                        "e. To assign IP addresses",
                                         "a. To configure firewalls",
-                                        "c. To encrypt communications"
+                                        "b. To track who has accessed a system",
+                                        "c. To encrypt communications",
+                                        "d. To manage satellite systems",
+                                        "e. To assign IP addresses"
                                     ],
                                     "correct_index": 1
                                 }
@@ -508,24 +508,24 @@
                                 {
                                     "text": "What is a characteristic of an IPv4 address?",
                                     "options": [
-                                        "e. 128 bits in eight hexadecimal segments",
-                                        "d. Used exclusively for private networks",
                                         "a. Separated by dashes",
+                                        "b. 32 bits in four octets, up to 255 each",
                                         "c. Limited to secure networks",
-                                        "b. 32 bits in four octets, up to 255 each"
+                                        "d. Used exclusively for private networks",
+                                        "e. 128 bits in eight hexadecimal segments"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does an IPv6 address differ from an IPv4 address?",
                                     "options": [
-                                        "c. It is 128 bits long and uses hexadecimal segments",
-                                        "e. It is limited to private networks",
+                                        "a. It uses dots to separate segments",
                                         "b. It requires COMSEC keys",
+                                        "c. It is 128 bits long and uses hexadecimal segments",
                                         "d. It is 32 bits long and uses octets",
-                                        "a. It uses dots to separate segments"
+                                        "e. It is limited to private networks"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 2
                                 }
                             ]
                         },
@@ -535,24 +535,24 @@
                                 {
                                     "text": "What does the Application layer of the TCP/IP model include?",
                                     "options": [
-                                        "d. Network and Transport layers",
+                                        "a. Only the Physical layer",
                                         "b. Application, Presentation, and Session layers",
                                         "c. Data Link and Network layers",
-                                        "e. Physical and Data Link layers",
-                                        "a. Only the Physical layer"
+                                        "d. Network and Transport layers",
+                                        "e. Physical and Data Link layers"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "What is the role of the Transport layer in the OSI model?",
                                     "options": [
+                                        "a. Assigns IP addresses",
+                                        "b. Transmits data packets",
                                         "c. Manages physical media",
                                         "d. Initiates user interfaces",
-                                        "a. Assigns IP addresses",
-                                        "e. Formats and encrypts data",
-                                        "b. Transmits data packets"
+                                        "e. Formats and encrypts data"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -562,24 +562,24 @@
                                 {
                                     "text": "Which device is considered an endpoint in a network?",
                                     "options": [
-                                        "e. Switch",
-                                        "d. Hub",
-                                        "b. Desktop computer",
                                         "a. Firewall",
-                                        "c. Router"
+                                        "b. Desktop computer",
+                                        "c. Router",
+                                        "d. Hub",
+                                        "e. Switch"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the primary function of a switch in a network?",
                                     "options": [
-                                        "c. Encrypts data for secure transmission",
                                         "a. Assigns IP addresses",
-                                        "e. Manages satellite communications",
                                         "b. Forwards data within a LAN using MAC addresses",
-                                        "d. Connects networks across large geographic areas"
+                                        "c. Encrypts data for secure transmission",
+                                        "d. Connects networks across large geographic areas",
+                                        "e. Manages satellite communications"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -589,22 +589,22 @@
                                 {
                                     "text": "What is an advantage of fiber as a communication medium?",
                                     "options": [
+                                        "a. Susceptible to signal leakage",
+                                        "b. High bandwidth and long-distance communication",
                                         "c. Limited to short-range connectivity",
                                         "d. Inexpensive and easy to maintain",
-                                        "b. High bandwidth and long-distance communication",
-                                        "e. Requires minimal power",
-                                        "a. Susceptible to signal leakage"
+                                        "e. Requires minimal power"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a limitation of copper as a communication medium?",
                                     "options": [
-                                        "e. Used for satellite communication",
+                                        "a. Supports high-speed data only",
                                         "b. Limited bandwidth and range",
-                                        "d. Immune to external noise",
                                         "c. High cost and difficult repairs",
-                                        "a. Supports high-speed data only"
+                                        "d. Immune to external noise",
+                                        "e. Used for satellite communication"
                                     ],
                                     "correct_index": 1
                                 }
@@ -619,21 +619,21 @@
                                         "a. Mesh",
                                         "b. Tiered",
                                         "c. Bus",
-                                        "e. Star",
-                                        "d. Ring"
+                                        "d. Ring",
+                                        "e. Star"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "What defines a Local Area Network (LAN)?",
                                     "options": [
-                                        "e. Connects cities regionally",
                                         "a. Requires satellite communication",
+                                        "b. Connects devices within a limited area like an office",
                                         "c. Connects devices across a country",
                                         "d. Uses public addressing schemes",
-                                        "b. Connects devices within a limited area like an office"
+                                        "e. Connects cities regionally"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -643,22 +643,22 @@
                                 {
                                     "text": "What is the purpose of ports in network communication?",
                                     "options": [
-                                        "d. To manage physical connections",
-                                        "e. To segment networks",
-                                        "c. To encrypt data",
                                         "a. To assign IP addresses",
-                                        "b. To direct traffic to specific services or processes"
+                                        "b. To direct traffic to specific services or processes",
+                                        "c. To encrypt data",
+                                        "d. To manage physical connections",
+                                        "e. To segment networks"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
-                                    "text": "Which port range is considered \u201cwell-known\u201d?",
+                                    "text": "Which port range is considered “well-known”?",
                                     "options": [
-                                        "c. 49152\u201365565",
-                                        "b. 0\u20131023",
-                                        "e. 65536\u201399999",
-                                        "a. 1000\u20132000",
-                                        "d. 1024\u201349151"
+                                        "a. 1000–2000",
+                                        "b. 0–1023",
+                                        "c. 49152–65565",
+                                        "d. 1024–49151",
+                                        "e. 65536–99999"
                                     ],
                                     "correct_index": 1
                                 }
@@ -670,24 +670,24 @@
                                 {
                                     "text": "What distinguishes a MAN from a LAN?",
                                     "options": [
-                                        "e. Supports slower data transmission",
                                         "a. Requires satellite communication",
-                                        "d. Uses public addressing schemes",
                                         "b. Connects devices within a city or between cities",
-                                        "c. Covers a smaller geographic area"
+                                        "c. Covers a smaller geographic area",
+                                        "d. Uses public addressing schemes",
+                                        "e. Supports slower data transmission"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a characteristic of a WAN?",
                                     "options": [
-                                        "e. Managed by switches alone",
                                         "a. Requires minimal bandwidth",
                                         "b. Connects networks globally or across a country",
                                         "c. Uses only private addressing",
-                                        "d. Limited to a single office"
+                                        "d. Limited to a single office",
+                                        "e. Managed by switches alone"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -697,24 +697,24 @@
                                 {
                                     "text": "What does the Physical layer (Layer 1) of the OSI model handle?",
                                     "options": [
-                                        "c. Session management",
-                                        "e. Application services",
+                                        "a. IP address assignment",
                                         "b. Data encryption",
+                                        "c. Session management",
                                         "d. Data traversal over communication mediums",
-                                        "a. IP address assignment"
+                                        "e. Application services"
                                     ],
                                     "correct_index": 3
                                 },
                                 {
                                     "text": "What is the role of the Network layer (Layer 3) in the OSI model?",
                                     "options": [
-                                        "d. Manages physical connections",
                                         "a. Assigns VLANs",
-                                        "c. Formats and encrypts data",
                                         "b. Connects nodes across different networks via addressing",
+                                        "c. Formats and encrypts data",
+                                        "d. Manages physical connections",
                                         "e. Initiates user sessions"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -724,24 +724,24 @@
                                 {
                                     "text": "What is a common network topology used in LANs?",
                                     "options": [
-                                        "d. Bus",
                                         "a. Tree",
-                                        "c. Ring",
                                         "b. Star",
+                                        "c. Ring",
+                                        "d. Bus",
                                         "e. Mesh"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is an advantage of a star topology?",
                                     "options": [
-                                        "e. Limited to small networks",
+                                        "a. Susceptible to single-point failure",
+                                        "b. Easy to add or remove devices",
                                         "c. Requires extensive cabling",
                                         "d. Difficult to troubleshoot",
-                                        "b. Easy to add or remove devices",
-                                        "a. Susceptible to single-point failure"
+                                        "e. Limited to small networks"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -751,24 +751,24 @@
                                 {
                                     "text": "What is a primary purpose of network monitoring?",
                                     "options": [
-                                        "d. To issue COMSEC keys",
-                                        "e. To manage satellite systems",
                                         "a. To assign IP addresses",
                                         "b. To detect and diagnose network performance issues",
-                                        "c. To encrypt network traffic"
+                                        "c. To encrypt network traffic",
+                                        "d. To issue COMSEC keys",
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What tool is commonly used for network monitoring?",
                                     "options": [
-                                        "d. Firewall logs",
-                                        "c. COMSEC keys",
+                                        "a. DHCP servers",
                                         "b. Packet analyzers",
-                                        "e. Satellite transceivers",
-                                        "a. DHCP servers"
+                                        "c. COMSEC keys",
+                                        "d. Firewall logs",
+                                        "e. Satellite transceivers"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -778,22 +778,22 @@
                                 {
                                     "text": "What is a key feature of Wireless LAN (WLAN)?",
                                     "options": [
-                                        "c. Uses only copper cables",
-                                        "e. Limited to long-distance communication",
                                         "a. Assigns static IP addresses",
                                         "b. Connects devices without physical cables",
-                                        "d. Requires COMSEC keys"
+                                        "c. Uses only copper cables",
+                                        "d. Requires COMSEC keys",
+                                        "e. Limited to long-distance communication"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a common security protocol for WLANs?",
                                     "options": [
-                                        "d. JWICS",
-                                        "b. WPA3",
                                         "a. SNMP",
-                                        "e. Taclanes",
-                                        "c. TLS/SSL"
+                                        "b. WPA3",
+                                        "c. TLS/SSL",
+                                        "d. JWICS",
+                                        "e. Taclanes"
                                     ],
                                     "correct_index": 1
                                 }
@@ -805,22 +805,22 @@
                                 {
                                     "text": "What is an advantage of onsite backups?",
                                     "options": [
-                                        "b. Lower cost and immediate data access",
-                                        "d. Immune to physical disasters",
                                         "a. Requires minimal storage",
-                                        "e. No maintenance required",
-                                        "c. Hosted by third-party cloud providers"
+                                        "b. Lower cost and immediate data access",
+                                        "c. Hosted by third-party cloud providers",
+                                        "d. Immune to physical disasters",
+                                        "e. No maintenance required"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What does a differential backup include?",
                                     "options": [
-                                        "e. Only system logs",
-                                        "b. Only files changed since the last full backup",
                                         "a. Only encrypted files",
+                                        "b. Only files changed since the last full backup",
                                         "c. Only files changed since the last incremental backup",
-                                        "d. All data regardless of changes"
+                                        "d. All data regardless of changes",
+                                        "e. Only system logs"
                                     ],
                                     "correct_index": 1
                                 }
@@ -832,24 +832,24 @@
                                 {
                                     "text": "What is the first step in a troubleshooting methodology?",
                                     "options": [
+                                        "a. Test the solution",
                                         "b. Identify the problem",
                                         "c. Implement a solution",
                                         "d. Document the fix",
-                                        "a. Test the solution",
                                         "e. Assign an IP address"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a key component of troubleshooting methodology?",
                                     "options": [
+                                        "a. Assigning VLANs",
                                         "b. Documenting findings and solutions",
-                                        "e. Deploying satellite systems",
                                         "c. Issuing COMSEC keys",
                                         "d. Encrypting network traffic",
-                                        "a. Assigning VLANs"
+                                        "e. Deploying satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -859,24 +859,24 @@
                                 {
                                     "text": "What is a benefit of coaxial cables?",
                                     "options": [
+                                        "a. Requires minimal power",
+                                        "b. Supports multiple channels with high capacity",
                                         "c. Immune to signal leakage",
                                         "d. Uses light pulses for transmission",
-                                        "b. Supports multiple channels with high capacity",
-                                        "a. Requires minimal power",
                                         "e. Limited to short distances"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What distinguishes single-mode fiber from multimode fiber?",
                                     "options": [
-                                        "b. Transmits one beam of light without refraction",
                                         "a. Has lower bandwidth",
-                                        "e. Supports short-range only",
+                                        "b. Transmits one beam of light without refraction",
+                                        "c. Uses LED light sources",
                                         "d. Is less expensive",
-                                        "c. Uses LED light sources"
+                                        "e. Supports short-range only"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -886,24 +886,24 @@
                                 {
                                     "text": "What is a common specialized tool for network diagnostics?",
                                     "options": [
-                                        "d. Satellite transceiver",
-                                        "c. COMSEC key issuer",
+                                        "a. DHCP server",
                                         "b. Cable tester",
-                                        "e. Firewall configurator",
-                                        "a. DHCP server"
+                                        "c. COMSEC key issuer",
+                                        "d. Satellite transceiver",
+                                        "e. Firewall configurator"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the purpose of a crimping tool in network maintenance?",
                                     "options": [
-                                        "b. To attach connectors to cables",
-                                        "d. To monitor network performance",
                                         "a. To assign IP addresses",
-                                        "e. To manage satellite communications",
-                                        "c. To encrypt network traffic"
+                                        "b. To attach connectors to cables",
+                                        "c. To encrypt network traffic",
+                                        "d. To monitor network performance",
+                                        "e. To manage satellite communications"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -923,24 +923,24 @@
                                 {
                                     "text": "What are the two main types of LAN technologies?",
                                     "options": [
+                                        "a. Star and mesh",
+                                        "b. Wired and wireless",
                                         "c. Secure and non-secure",
                                         "d. Satellite and fiber",
-                                        "e. Public and private",
-                                        "a. Star and mesh",
-                                        "b. Wired and wireless"
+                                        "e. Public and private"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a benefit of wired LAN technologies?",
                                     "options": [
-                                        "c. Limited to short distances",
-                                        "d. Susceptible to signal interference",
                                         "a. Uses satellite communication",
                                         "b. Faster and more reliable data transmission",
+                                        "c. Limited to short distances",
+                                        "d. Susceptible to signal interference",
                                         "e. Requires no cabling"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -950,24 +950,24 @@
                                 {
                                     "text": "What is the purpose of creating a VLAN within a switch?",
                                     "options": [
-                                        "e. To manage satellite communications",
-                                        "d. To increase physical cabling",
-                                        "b. To logically separate networks for security",
                                         "a. To assign IP addresses",
-                                        "c. To encrypt network traffic"
+                                        "b. To logically separate networks for security",
+                                        "c. To encrypt network traffic",
+                                        "d. To increase physical cabling",
+                                        "e. To manage satellite communications"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What happens if a VLAN is not specified on a switch port?",
                                     "options": [
-                                        "e. The port connects to all VLANs",
+                                        "a. The port assigns an IP address",
+                                        "b. The port uses the default VLAN",
                                         "c. The port is disabled",
                                         "d. The port encrypts all traffic",
-                                        "b. The port uses the default VLAN",
-                                        "a. The port assigns an IP address"
+                                        "e. The port connects to all VLANs"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -988,13 +988,13 @@
                                 {
                                     "text": "What happens if a router does not know a destination network?",
                                     "options": [
-                                        "d. It drops the packet",
                                         "a. It assigns an IP address",
                                         "b. It forwards the request to a higher-level routing device",
                                         "c. It encrypts the data",
+                                        "d. It drops the packet",
                                         "e. It uses the default VLAN"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -1009,24 +1009,24 @@
                                 {
                                     "text": "Which of the following is an example of a server type?",
                                     "options": [
-                                        "e. Access point",
-                                        "b. Web server",
                                         "a. Firewall",
+                                        "b. Web server",
                                         "c. Router",
-                                        "d. Switch"
+                                        "d. Switch",
+                                        "e. Access point"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "What is a characteristic of a rack-mounted server?",
                                     "options": [
-                                        "d. Designed for standalone desktop use",
-                                        "c. Used exclusively for wireless networks",
-                                        "b. Mounted in a rack for data center efficiency",
                                         "a. Requires satellite communication",
+                                        "b. Mounted in a rack for data center efficiency",
+                                        "c. Used exclusively for wireless networks",
+                                        "d. Designed for standalone desktop use",
                                         "e. Limited to client-side applications"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1036,24 +1036,24 @@
                                 {
                                     "text": "What is the main difference between Type 1 and Type 2 hypervisors?",
                                     "options": [
-                                        "d. Type 1 runs over an operating system; Type 2 is bare metal",
-                                        "e. Type 1 is used for client devices; Type 2 is for servers",
-                                        "b. Type 1 is bare metal; Type 2 runs over an operating system",
                                         "a. Type 1 assigns IP addresses; Type 2 does not",
-                                        "c. Type 1 encrypts data; Type 2 does not"
+                                        "b. Type 1 is bare metal; Type 2 runs over an operating system",
+                                        "c. Type 1 encrypts data; Type 2 does not",
+                                        "d. Type 1 runs over an operating system; Type 2 is bare metal",
+                                        "e. Type 1 is used for client devices; Type 2 is for servers"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a benefit of virtualization in data centers?",
                                     "options": [
+                                        "a. Assigns static IP addresses",
                                         "b. Reduces square footage and power consumption",
                                         "c. Increases physical hardware requirements",
-                                        "e. Requires manual OS installation",
-                                        "a. Assigns static IP addresses",
-                                        "d. Limits server scalability"
+                                        "d. Limits server scalability",
+                                        "e. Requires manual OS installation"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1065,22 +1065,22 @@
                                     "options": [
                                         "a. To configure firewalls",
                                         "b. To manage users, groups, and security accounts hierarchically",
-                                        "e. To monitor network traffic",
                                         "c. To translate domain names to IP addresses",
-                                        "d. To assign IP addresses dynamically"
+                                        "d. To assign IP addresses dynamically",
+                                        "e. To monitor network traffic"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "How does Active Directory support administration?",
                                     "options": [
-                                        "d. By encrypting network traffic",
-                                        "e. By managing satellite communications",
-                                        "c. By assigning static IP addresses",
                                         "a. By monitoring firewall logs",
-                                        "b. By delegating permissions through organizational units"
+                                        "b. By delegating permissions through organizational units",
+                                        "c. By assigning static IP addresses",
+                                        "d. By encrypting network traffic",
+                                        "e. By managing satellite communications"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1091,23 +1091,23 @@
                                     "text": "What is the primary function of the Domain Name System (DNS)?",
                                     "options": [
                                         "a. To configure VLANs",
+                                        "b. To translate domain names to IP addresses",
                                         "c. To assign IP addresses dynamically",
                                         "d. To encrypt network communications",
-                                        "b. To translate domain names to IP addresses",
                                         "e. To manage user accounts"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does DNS resolve domain names?",
                                     "options": [
-                                        "b. From top-level domains to the root server",
                                         "a. Using static IP assignments",
-                                        "d. From bottom-level domains to the root server",
+                                        "b. From top-level domains to the root server",
                                         "c. Via satellite communication",
+                                        "d. From bottom-level domains to the root server",
                                         "e. Through COMSEC keys"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1117,24 +1117,24 @@
                                 {
                                     "text": "What is the primary role of DHCP?",
                                     "options": [
+                                        "a. To encrypt network traffic",
+                                        "b. To automatically assign IP addresses to devices",
                                         "c. To translate domain names to IP addresses",
                                         "d. To manage user permissions",
-                                        "e. To monitor network traffic",
-                                        "a. To encrypt network traffic",
-                                        "b. To automatically assign IP addresses to devices"
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a required option in DHCP configuration?",
                                     "options": [
+                                        "a. VLAN assignment",
                                         "b. Subnet mask",
-                                        "d. Firewall rules",
                                         "c. COMSEC key",
-                                        "e. Domain name translation",
-                                        "a. VLAN assignment"
+                                        "d. Firewall rules",
+                                        "e. Domain name translation"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -1149,20 +1149,20 @@
                                 {
                                     "text": "What is a characteristic of services in a Windows-based OS?",
                                     "options": [
-                                        "c. They are interactive applications",
                                         "a. They assign IP addresses",
                                         "b. They run in the background, like Wi-Fi or Bluetooth",
+                                        "c. They are interactive applications",
                                         "d. They require user input to function",
                                         "e. They are exclusive to Linux systems"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How are services referred to in Linux?",
                                     "options": [
-                                        "c. Processes",
-                                        "b. Daemons",
                                         "a. Firewalls",
+                                        "b. Daemons",
+                                        "c. Processes",
                                         "d. Applications",
                                         "e. Scripts"
                                     ],
@@ -1176,24 +1176,24 @@
                                 {
                                     "text": "What defines a process in an operating system?",
                                     "options": [
-                                        "e. A COMSEC key",
                                         "a. A firewall rule",
                                         "b. An instance of an interactive executable application",
                                         "c. A non-interactive background service",
-                                        "d. A static IP address assignment"
+                                        "d. A static IP address assignment",
+                                        "e. A COMSEC key"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How is a process identified in Linux?",
                                     "options": [
+                                        "a. By a VLAN tag",
                                         "b. By a Process ID (PID)",
                                         "c. By a COMSEC key",
                                         "d. By a subnet mask",
-                                        "e. By a domain name",
-                                        "a. By a VLAN tag"
+                                        "e. By a domain name"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -1209,23 +1209,23 @@
                                     "text": "Which of the following is an example of an end user device?",
                                     "options": [
                                         "a. Firewall",
-                                        "d. Switch",
                                         "b. Laptop",
                                         "c. Router",
+                                        "d. Switch",
                                         "e. Access point"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is an example of client software?",
                                     "options": [
-                                        "c. Active Directory",
-                                        "e. COMSEC key issuer",
                                         "a. DHCP service",
                                         "b. Microsoft Word",
-                                        "d. DNS server"
+                                        "c. Active Directory",
+                                        "d. DNS server",
+                                        "e. COMSEC key issuer"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1235,9 +1235,9 @@
                                 {
                                     "text": "Which of the following is a common desktop operating system?",
                                     "options": [
-                                        "c. Android",
-                                        "b. Windows",
                                         "a. SNMP",
+                                        "b. Windows",
+                                        "c. Android",
                                         "d. iOS",
                                         "e. Linux daemon"
                                     ],
@@ -1247,12 +1247,12 @@
                                     "text": "What is a key feature of Linux as an operating system?",
                                     "options": [
                                         "a. Requires satellite communication",
+                                        "b. Open-source with customizable configurations",
                                         "c. Used only for servers",
                                         "d. Exclusive to mobile devices",
-                                        "b. Open-source with customizable configurations",
                                         "e. Limited to proprietary hardware"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1264,8 +1264,8 @@
                                     "options": [
                                         "a. SNMP",
                                         "b. Android",
-                                        "d. Mac OS",
                                         "c. Windows",
+                                        "d. Mac OS",
                                         "e. Linux"
                                     ],
                                     "correct_index": 1
@@ -1273,13 +1273,13 @@
                                 {
                                     "text": "What distinguishes iOS from other mobile operating systems?",
                                     "options": [
-                                        "b. Exclusive to Apple devices",
-                                        "e. Supports all hardware types",
                                         "a. Assigns IP addresses",
+                                        "b. Exclusive to Apple devices",
                                         "c. Open-source availability",
-                                        "d. Used on desktop computers"
+                                        "d. Used on desktop computers",
+                                        "e. Supports all hardware types"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1289,21 +1289,21 @@
                                 {
                                     "text": "What is the purpose of software management policies in an enterprise?",
                                     "options": [
-                                        "b. To ensure license control and prevent pirated software",
-                                        "e. To manage satellite systems",
-                                        "d. To assign IP addresses",
                                         "a. To configure firewalls",
-                                        "c. To encrypt network traffic"
+                                        "b. To ensure license control and prevent pirated software",
+                                        "c. To encrypt network traffic",
+                                        "d. To assign IP addresses",
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does Software Center assist in software management?",
                                     "options": [
-                                        "c. By assigning IP addresses",
-                                        "b. By centralizing software deployment and licensing",
-                                        "d. By encrypting communications",
                                         "a. By configuring VLANs",
+                                        "b. By centralizing software deployment and licensing",
+                                        "c. By assigning IP addresses",
+                                        "d. By encrypting communications",
                                         "e. By monitoring network traffic"
                                     ],
                                     "correct_index": 1
@@ -1316,22 +1316,22 @@
                                 {
                                     "text": "What is a common method to install software on Linux?",
                                     "options": [
-                                        "b. Using sudo apt install",
-                                        "d. Issuing COMSEC keys",
-                                        "e. Configuring DNS",
                                         "a. Setting SNMP traps",
-                                        "c. Running install.exe"
+                                        "b. Using sudo apt install",
+                                        "c. Running install.exe",
+                                        "d. Issuing COMSEC keys",
+                                        "e. Configuring DNS"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does the Windows software installation process typically begin?",
                                     "options": [
-                                        "c. Through DHCP configuration",
+                                        "a. By assigning VLANs",
                                         "b. with the programs installation \".exe\"",
+                                        "c. Through DHCP configuration",
                                         "d. Via SNMP traps",
-                                        "e. With sudo commands",
-                                        "a. By assigning VLANs"
+                                        "e. With sudo commands"
                                     ],
                                     "correct_index": 1
                                 }
@@ -1343,10 +1343,10 @@
                                 {
                                     "text": "Which of the following is a type of malicious software?",
                                     "options": [
-                                        "c. Microsoft Word",
-                                        "b. Trojan",
-                                        "d. Active Directory",
                                         "a. DHCP service",
+                                        "b. Trojan",
+                                        "c. Microsoft Word",
+                                        "d. Active Directory",
                                         "e. DNS server"
                                     ],
                                     "correct_index": 1
@@ -1354,13 +1354,13 @@
                                 {
                                     "text": "What is a common sign of malware infection?",
                                     "options": [
-                                        "c. Improved network connectivity",
-                                        "e. Automatic IP address assignment",
                                         "a. Enhanced firewall performance",
                                         "b. Unexpected system slowdowns or crashes",
-                                        "d. Faster system performance"
+                                        "c. Improved network connectivity",
+                                        "d. Faster system performance",
+                                        "e. Automatic IP address assignment"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1371,23 +1371,23 @@
                                     "text": "What is an example of a conditional primitive in scripting?",
                                     "options": [
                                         "a. A COMSEC key",
-                                        "d. A process ID",
-                                        "e. A firewall rule",
                                         "b. An if-else statement",
-                                        "c. A loop"
+                                        "c. A loop",
+                                        "d. A process ID",
+                                        "e. A firewall rule"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the purpose of a conditional primitive?",
                                     "options": [
-                                        "b. To control program flow based on conditions",
-                                        "e. To monitor network traffic",
                                         "a. To configure VLANs",
+                                        "b. To control program flow based on conditions",
                                         "c. To encrypt data",
-                                        "d. To assign IP addresses"
+                                        "d. To assign IP addresses",
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1397,24 +1397,24 @@
                                 {
                                     "text": "What is an example of an iterative primitive in scripting?",
                                     "options": [
-                                        "b. A loop",
                                         "a. A VLAN tag",
+                                        "b. A loop",
                                         "c. A firewall rule",
-                                        "e. A COMSEC key",
-                                        "d. A DNS query"
+                                        "d. A DNS query",
+                                        "e. A COMSEC key"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the purpose of iterative primitives in scripting?",
                                     "options": [
                                         "a. To configure firewalls",
-                                        "d. To encrypt network traffic",
-                                        "c. To assign static IP addresses",
                                         "b. To repeat code execution until a condition is met",
+                                        "c. To assign static IP addresses",
+                                        "d. To encrypt network traffic",
                                         "e. To manage satellite communications"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1424,24 +1424,24 @@
                                 {
                                     "text": "What is the purpose of data manipulation in scripting?",
                                     "options": [
-                                        "d. To assign IP addresses",
-                                        "c. To encrypt network traffic",
                                         "a. To configure VLANs",
                                         "b. To modify or transform data for processing",
+                                        "c. To encrypt network traffic",
+                                        "d. To assign IP addresses",
                                         "e. To monitor firewall logs"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Which of the following is an example of data manipulation?",
                                     "options": [
-                                        "d. Issuing a COMSEC key",
-                                        "e. Configuring a firewall",
-                                        "c. Assigning a static IP address",
+                                        "a. Setting SNMP traps",
                                         "b. Converting a string to uppercase",
-                                        "a. Setting SNMP traps"
+                                        "c. Assigning a static IP address",
+                                        "d. Issuing a COMSEC key",
+                                        "e. Configuring a firewall"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1451,24 +1451,24 @@
                                 {
                                     "text": "What is a primary goal of basic scripting in client systems?",
                                     "options": [
-                                        "b. To automate repetitive tasks",
                                         "a. To configure firewalls",
-                                        "d. To encrypt network traffic",
+                                        "b. To automate repetitive tasks",
                                         "c. To assign IP addresses",
+                                        "d. To encrypt network traffic",
                                         "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Which language is commonly used for basic scripting in Linux?",
                                     "options": [
-                                        "e. DNS",
-                                        "c. PowerShell",
                                         "a. SNMP",
+                                        "b. Bash",
+                                        "c. PowerShell",
                                         "d. Active Directory",
-                                        "b. Bash"
+                                        "e. DNS"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1478,11 +1478,11 @@
                                 {
                                     "text": "What is the primary use of Transport Layer Security (TLS)?",
                                     "options": [
-                                        "e. To monitor network traffic",
-                                        "b. To secure data transmission over networks",
                                         "a. To configure VLANs",
+                                        "b. To secure data transmission over networks",
+                                        "c. To assign IP addresses",
                                         "d. To manage user accounts",
-                                        "c. To assign IP addresses"
+                                        "e. To monitor network traffic"
                                     ],
                                     "correct_index": 1
                                 },
@@ -1490,12 +1490,12 @@
                                     "text": "Where is TLS commonly implemented?",
                                     "options": [
                                         "a. In VLAN assignments",
-                                        "d. In IP address assignments",
-                                        "e. In satellite communications",
+                                        "b. In web traffic and secure databases",
                                         "c. In firewall configurations",
-                                        "b. In web traffic and secure databases"
+                                        "d. In IP address assignments",
+                                        "e. In satellite communications"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1505,24 +1505,24 @@
                                 {
                                     "text": "What is the purpose of encoding in client systems?",
                                     "options": [
-                                        "b. To change data from one form to another",
-                                        "d. To manage firewall rules",
-                                        "e. To monitor network traffic",
                                         "a. To configure VLANs",
-                                        "c. To assign IP addresses"
+                                        "b. To change data from one form to another",
+                                        "c. To assign IP addresses",
+                                        "d. To manage firewall rules",
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Which of the following is an example of encoding?",
                                     "options": [
-                                        "c. Assigning a static IP address",
                                         "a. Setting SNMP traps",
                                         "b. Converting text to ASCII",
-                                        "e. Configuring a VLAN",
-                                        "d. Issuing a COMSEC key"
+                                        "c. Assigning a static IP address",
+                                        "d. Issuing a COMSEC key",
+                                        "e. Configuring a VLAN"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1532,24 +1532,24 @@
                                 {
                                     "text": "What is the purpose of data validation in client systems?",
                                     "options": [
-                                        "e. To monitor firewall logs",
-                                        "d. To assign IP addresses",
+                                        "a. To configure VLANs",
                                         "b. To ensure input data meets specific criteria",
                                         "c. To encrypt network traffic",
-                                        "a. To configure VLANs"
+                                        "d. To assign IP addresses",
+                                        "e. To monitor firewall logs"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why is data validation critical in preventing security issues?",
                                     "options": [
+                                        "a. It configures firewalls",
                                         "b. It prevents malicious input from exploiting systems",
                                         "c. It assigns IP addresses",
-                                        "e. It manages satellite systems",
                                         "d. It encrypts communications",
-                                        "a. It configures firewalls"
+                                        "e. It manages satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1559,24 +1559,24 @@
                                 {
                                     "text": "What is an example of data sanitization?",
                                     "options": [
+                                        "a. Setting SNMP traps",
+                                        "b. Removing social security numbers from documents",
                                         "c. Assigning a static IP address",
                                         "d. Configuring a firewall",
-                                        "b. Removing social security numbers from documents",
-                                        "a. Setting SNMP traps",
                                         "e. Monitoring network traffic"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why is data sanitization important in client systems?",
                                     "options": [
-                                        "d. To assign IP addresses",
-                                        "e. To manage VLANs",
-                                        "b. To protect sensitive information from exposure",
                                         "a. To configure firewalls",
-                                        "c. To improve network speed"
+                                        "b. To protect sensitive information from exposure",
+                                        "c. To improve network speed",
+                                        "d. To assign IP addresses",
+                                        "e. To manage VLANs"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1586,22 +1586,22 @@
                                 {
                                     "text": "What is SQL injection?",
                                     "options": [
-                                        "b. Injecting SQL code to gain unauthorized database access",
-                                        "d. Encrypting network traffic",
                                         "a. Configuring VLANs",
+                                        "b. Injecting SQL code to gain unauthorized database access",
                                         "c. Assigning a static IP address",
+                                        "d. Encrypting network traffic",
                                         "e. Monitoring firewall logs"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How can SQL injection lead to a security breach?",
                                     "options": [
-                                        "d. By encrypting communications",
-                                        "b. By breaking database boundaries to gain higher-level access",
                                         "a. By configuring firewalls",
-                                        "e. By managing satellite systems",
-                                        "c. By assigning static IP addresses"
+                                        "b. By breaking database boundaries to gain higher-level access",
+                                        "c. By assigning static IP addresses",
+                                        "d. By encrypting communications",
+                                        "e. By managing satellite systems"
                                     ],
                                     "correct_index": 1
                                 }
@@ -1613,24 +1613,24 @@
                                 {
                                     "text": "What is an example of code injection?",
                                     "options": [
+                                        "a. Setting SNMP traps",
+                                        "b. Running PowerShell without code signature checks",
                                         "c. Assigning a static IP address",
                                         "d. Configuring a firewall",
-                                        "b. Running PowerShell without code signature checks",
-                                        "e. Monitoring network traffic",
-                                        "a. Setting SNMP traps"
+                                        "e. Monitoring network traffic"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the purpose of code injection attacks?",
                                     "options": [
-                                        "e. To monitor firewall logs",
-                                        "c. To assign IP addresses",
-                                        "b. To make programs run outside their intended parameters",
                                         "a. To configure VLANs",
-                                        "d. To encrypt data"
+                                        "b. To make programs run outside their intended parameters",
+                                        "c. To assign IP addresses",
+                                        "d. To encrypt data",
+                                        "e. To monitor firewall logs"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1640,24 +1640,24 @@
                                 {
                                     "text": "What is cross-site scripting (XSS)?",
                                     "options": [
-                                        "e. Monitoring firewall logs",
-                                        "c. Assigning IP addresses via DHCP",
                                         "a. Configuring VLANs",
+                                        "b. Exploiting client-to-website interactions via malformed URLs",
+                                        "c. Assigning IP addresses via DHCP",
                                         "d. Encrypting network traffic",
-                                        "b. Exploiting client-to-website interactions via malformed URLs"
+                                        "e. Monitoring firewall logs"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a potential outcome of a cross-site scripting attack?",
                                     "options": [
-                                        "b. Unauthorized access to a website or user data",
-                                        "d. Improved network performance",
                                         "a. Configuration of firewalls",
-                                        "e. Management of satellite communications",
-                                        "c. Assignment of static IP addresses"
+                                        "b. Unauthorized access to a website or user data",
+                                        "c. Assignment of static IP addresses",
+                                        "d. Improved network performance",
+                                        "e. Management of satellite communications"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1667,24 +1667,24 @@
                                 {
                                     "text": "What is the primary function of SSH?",
                                     "options": [
+                                        "a. To configure VLANs",
                                         "b. To provide secure remote access to systems",
-                                        "d. To encrypt firewall rules",
-                                        "e. To monitor network traffic",
                                         "c. To assign IP addresses",
-                                        "a. To configure VLANs"
+                                        "d. To encrypt firewall rules",
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Which port is commonly associated with SSH?",
                                     "options": [
-                                        "d. 443",
-                                        "e. 161",
                                         "a. 53",
+                                        "b. 22",
                                         "c. 80",
-                                        "b. 22"
+                                        "d. 443",
+                                        "e. 161"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1694,24 +1694,24 @@
                                 {
                                     "text": "What is a primary use of SSL/TLS?",
                                     "options": [
-                                        "b. To secure web traffic and database connections",
                                         "a. To configure VLANs",
-                                        "d. To monitor network performance",
+                                        "b. To secure web traffic and database connections",
                                         "c. To assign IP addresses",
+                                        "d. To monitor network performance",
                                         "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does SSL/TLS enhance security?",
                                     "options": [
+                                        "a. By assigning DHCP scopes",
                                         "b. By encrypting data during transmission",
-                                        "d. By configuring VLANs",
                                         "c. By assigning static IP addresses",
-                                        "e. By monitoring firewall logs",
-                                        "a. By assigning DHCP scopes"
+                                        "d. By configuring VLANs",
+                                        "e. By monitoring firewall logs"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1721,21 +1721,21 @@
                                 {
                                     "text": "What is the purpose of Secure FTP (SFTP)?",
                                     "options": [
-                                        "e. To monitor network traffic",
                                         "a. To configure firewalls",
+                                        "b. To transfer files securely over a network",
                                         "c. To assign IP addresses",
                                         "d. To manage satellite communications",
-                                        "b. To transfer files securely over a network"
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does Secure FTP differ from regular FTP?",
                                     "options": [
                                         "a. It manages VLANs",
                                         "b. It incorporates encryption for secure file transfers",
-                                        "d. It assigns IP addresses",
                                         "c. It uses unencrypted connections",
+                                        "d. It assigns IP addresses",
                                         "e. It monitors network traffic"
                                     ],
                                     "correct_index": 1
@@ -1749,23 +1749,23 @@
                                     "text": "What port is commonly used by HTTPS?",
                                     "options": [
                                         "a. 161",
-                                        "e. 53",
+                                        "b. 443",
                                         "c. 22",
                                         "d. 80",
-                                        "b. 443"
+                                        "e. 53"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What distinguishes HTTPS from HTTP?",
                                     "options": [
+                                        "a. HTTPS configures VLANs",
+                                        "b. HTTPS uses SSL/TLS for secure connections",
                                         "c. HTTPS assigns IP addresses",
                                         "d. HTTPS monitors network traffic",
-                                        "a. HTTPS configures VLANs",
-                                        "e. HTTPS manages satellite systems",
-                                        "b. HTTPS uses SSL/TLS for secure connections"
+                                        "e. HTTPS manages satellite systems"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1775,24 +1775,24 @@
                                 {
                                     "text": "What is the primary function of SNMP?",
                                     "options": [
-                                        "c. To assign IP addresses",
                                         "a. To configure firewalls",
+                                        "b. To manage and monitor network devices via low-level logging",
+                                        "c. To assign IP addresses",
                                         "d. To encrypt network traffic",
-                                        "e. To manage satellite communications",
-                                        "b. To manage and monitor network devices via low-level logging"
+                                        "e. To manage satellite communications"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is an example of SNMP usage?",
                                     "options": [
-                                        "c. Assigning a static IP address",
                                         "a. Issuing COMSEC keys",
-                                        "d. Configuring VLANs",
                                         "b. Setting traps to a Syslog server for network monitoring",
+                                        "c. Assigning a static IP address",
+                                        "d. Configuring VLANs",
                                         "e. Encrypting communications"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1802,24 +1802,24 @@
                                 {
                                     "text": "What is the primary purpose of the ping utility?",
                                     "options": [
+                                        "a. To configure VLANs",
                                         "b. To test if a device is reachable on a network",
-                                        "e. To manage satellite systems",
                                         "c. To encrypt network traffic",
                                         "d. To assign IP addresses",
-                                        "a. To configure VLANs"
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What does a successful ping response indicate?",
                                     "options": [
                                         "a. A VLAN is misconfigured",
-                                        "d. The network is encrypted",
-                                        "e. The device is offline",
+                                        "b. The target device is reachable and responding",
                                         "c. A firewall is blocking traffic",
-                                        "b. The target device is reachable and responding"
+                                        "d. The network is encrypted",
+                                        "e. The device is offline"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1830,21 +1830,21 @@
                                     "text": "What is the function of traceroute?",
                                     "options": [
                                         "a. To configure VLANs",
-                                        "d. To encrypt data",
+                                        "b. To show the path and hops to a network destination",
                                         "c. To assign IP addresses",
-                                        "e. To issue COMSEC keys",
-                                        "b. To show the path and hops to a network destination"
+                                        "d. To encrypt data",
+                                        "e. To issue COMSEC keys"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why is traceroute useful for troubleshooting?",
                                     "options": [
-                                        "d. It encrypts network traffic",
+                                        "a. It configures firewalls",
                                         "b. It identifies where network delays or failures occur",
                                         "c. It assigns IP addresses",
-                                        "e. It manages satellite communications",
-                                        "a. It configures firewalls"
+                                        "d. It encrypts network traffic",
+                                        "e. It manages satellite communications"
                                     ],
                                     "correct_index": 1
                                 }
@@ -1856,24 +1856,24 @@
                                 {
                                     "text": "What is the purpose of ipconfig in Windows?",
                                     "options": [
-                                        "d. To assign user permissions",
-                                        "e. To monitor satellite systems",
-                                        "c. To encrypt network traffic",
+                                        "a. To configure VLANs",
                                         "b. To display network configuration details",
-                                        "a. To configure VLANs"
+                                        "c. To encrypt network traffic",
+                                        "d. To assign user permissions",
+                                        "e. To monitor satellite systems"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is the equivalent of ipconfig in Linux?",
                                     "options": [
-                                        "b. Ifconfig",
                                         "a. SNMP",
+                                        "b. Ifconfig",
+                                        "c. Netstat",
                                         "d. Ping",
-                                        "e. Traceroute",
-                                        "c. Netstat"
+                                        "e. Traceroute"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1883,24 +1883,24 @@
                                 {
                                     "text": "What does the netstat command display?",
                                     "options": [
-                                        "e. Satellite communication status",
                                         "a. VLAN configurations",
                                         "b. Current network connections and listening ports",
                                         "c. IP address assignments",
-                                        "d. Encrypted data streams"
+                                        "d. Encrypted data streams",
+                                        "e. Satellite communication status"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why is netstat useful for network troubleshooting?",
                                     "options": [
-                                        "e. It configures VLANs",
-                                        "d. It encrypts network traffic",
-                                        "b. It shows incoming and outgoing connections",
                                         "a. It issues COMSEC keys",
-                                        "c. It assigns IP addresses"
+                                        "b. It shows incoming and outgoing connections",
+                                        "c. It assigns IP addresses",
+                                        "d. It encrypts network traffic",
+                                        "e. It configures VLANs"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -1920,22 +1920,22 @@
                                 {
                                     "text": "What is the purpose of operational knowledge management?",
                                     "options": [
-                                        "e. To manage satellite systems",
+                                        "a. To configure firewalls",
+                                        "b. To document standard operating procedures and tasks",
                                         "c. To encrypt network traffic",
                                         "d. To assign IP addresses",
-                                        "a. To configure firewalls",
-                                        "b. To document standard operating procedures and tasks"
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is an example of agile learning in knowledge management?",
                                     "options": [
-                                        "c. Waterfall methodology",
+                                        "a. VLAN assignment",
                                         "b. Incremental development",
+                                        "c. Waterfall methodology",
                                         "d. Static IP assignment",
-                                        "e. Firewall configuration",
-                                        "a. VLAN assignment"
+                                        "e. Firewall configuration"
                                     ],
                                     "correct_index": 1
                                 }
@@ -1947,24 +1947,24 @@
                                 {
                                     "text": "What is the goal of best practice identification and sharing?",
                                     "options": [
-                                        "e. To monitor network traffic",
-                                        "b. To document and share effective methods",
-                                        "d. To assign IP addresses",
                                         "a. To configure VLANs",
-                                        "c. To encrypt communications"
+                                        "b. To document and share effective methods",
+                                        "c. To encrypt communications",
+                                        "d. To assign IP addresses",
+                                        "e. To monitor network traffic"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "Why are best practices documented?",
                                     "options": [
+                                        "a. To configure firewalls",
+                                        "b. To explain why they are effective and encourage adoption",
                                         "c. To improve network speed",
                                         "d. To assign user permissions",
-                                        "b. To explain why they are effective and encourage adoption",
-                                        "a. To configure firewalls",
                                         "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -1974,24 +1974,24 @@
                                 {
                                     "text": "What is the purpose of change management?",
                                     "options": [
-                                        "e. To monitor firewall logs",
-                                        "c. To encrypt network traffic",
-                                        "b. To control transitions from development to production environments",
                                         "a. To configure VLANs",
-                                        "d. To assign IP addresses"
+                                        "b. To control transitions from development to production environments",
+                                        "c. To encrypt network traffic",
+                                        "d. To assign IP addresses",
+                                        "e. To monitor firewall logs"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a key component of change management?",
                                     "options": [
-                                        "c. Issuing COMSEC keys",
-                                        "e. Managing satellite communications",
+                                        "a. Configuring firewalls",
                                         "b. A change review board for pre-planning and documentation",
+                                        "c. Issuing COMSEC keys",
                                         "d. Assigning static IP addresses",
-                                        "a. Configuring firewalls"
+                                        "e. Managing satellite communications"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -2001,22 +2001,22 @@
                                 {
                                     "text": "What is the purpose of knowledge capture?",
                                     "options": [
-                                        "e. To monitor network traffic",
-                                        "d. To assign IP addresses",
                                         "a. To configure firewalls",
+                                        "b. To document processes and best practices for future use",
                                         "c. To encrypt data",
-                                        "b. To document processes and best practices for future use"
+                                        "d. To assign IP addresses",
+                                        "e. To monitor network traffic"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Why is documenting as you go important in knowledge capture?",
                                     "options": [
-                                        "c. To improve network performance",
-                                        "b. To ensure knowledge is preserved for non-routine processes",
-                                        "e. To manage satellite systems",
                                         "a. To configure VLANs",
-                                        "d. To assign user permissions"
+                                        "b. To ensure knowledge is preserved for non-routine processes",
+                                        "c. To improve network performance",
+                                        "d. To assign user permissions",
+                                        "e. To manage satellite systems"
                                     ],
                                     "correct_index": 1
                                 }
@@ -2028,24 +2028,24 @@
                                 {
                                     "text": "What is the goal of capturing lessons learned?",
                                     "options": [
-                                        "e. To monitor firewall logs",
-                                        "d. To assign IP addresses",
                                         "a. To configure VLANs",
+                                        "b. To identify assumptions and improve future processes",
                                         "c. To encrypt network traffic",
-                                        "b. To identify assumptions and improve future processes"
+                                        "d. To assign IP addresses",
+                                        "e. To monitor firewall logs"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "When are lessons learned typically captured?",
                                     "options": [
-                                        "b. After a sprint or project phase",
-                                        "d. During firewall configuration",
-                                        "c. During IP address assignment",
                                         "a. During VLAN setup",
+                                        "b. After a sprint or project phase",
+                                        "c. During IP address assignment",
+                                        "d. During firewall configuration",
                                         "e. During satellite system deployment"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -2060,22 +2060,22 @@
                                 {
                                     "text": "What is a primary goal of AEF employment?",
                                     "options": [
-                                        "b. To rapidly deploy air and space forces for global operations",
-                                        "e. To manage satellite systems",
-                                        "c. To assign IP addresses",
                                         "a. To configure firewalls",
-                                        "d. To encrypt network traffic"
+                                        "b. To rapidly deploy air and space forces for global operations",
+                                        "c. To assign IP addresses",
+                                        "d. To encrypt network traffic",
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does AEF support expeditionary communications?",
                                     "options": [
-                                        "e. By monitoring network traffic",
-                                        "b. By enabling communication systems for deployed forces",
-                                        "d. By configuring firewalls",
                                         "a. By configuring VLANs",
-                                        "c. By assigning static IP addresses"
+                                        "b. By enabling communication systems for deployed forces",
+                                        "c. By assigning static IP addresses",
+                                        "d. By configuring firewalls",
+                                        "e. By monitoring network traffic"
                                     ],
                                     "correct_index": 1
                                 }
@@ -2087,24 +2087,24 @@
                                 {
                                     "text": "What is the purpose of AFFORGEN?",
                                     "options": [
-                                        "b. To organize and prepare forces for deployment cycles",
-                                        "d. To assign IP addresses",
-                                        "c. To encrypt communications",
                                         "a. To configure VLANs",
+                                        "b. To organize and prepare forces for deployment cycles",
+                                        "c. To encrypt communications",
+                                        "d. To assign IP addresses",
                                         "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does AFFORGEN enhance readiness?",
                                     "options": [
-                                        "b. By aligning training and resources for deployment",
                                         "a. By configuring firewalls",
-                                        "d. By assigning user permissions",
+                                        "b. By aligning training and resources for deployment",
                                         "c. By encrypting network traffic",
+                                        "d. By assigning user permissions",
                                         "e. By monitoring firewall logs"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -2115,21 +2115,21 @@
                                     "text": "What is a key feature of Agile Combat Employment (ACE)?",
                                     "options": [
                                         "a. Firewall configuration",
-                                        "d. Centralized network management",
-                                        "c. Static IP address assignment",
                                         "b. Flexible and dispersed operations to enhance survivability",
+                                        "c. Static IP address assignment",
+                                        "d. Centralized network management",
                                         "e. Satellite system deployment"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "How does ACE support expeditionary communications?",
                                     "options": [
                                         "a. By configuring VLANs",
                                         "b. By enabling rapid communication setup in austere environments",
-                                        "e. By monitoring network traffic",
+                                        "c. By assigning IP addresses",
                                         "d. By encrypting firewall rules",
-                                        "c. By assigning IP addresses"
+                                        "e. By monitoring network traffic"
                                     ],
                                     "correct_index": 1
                                 }
@@ -2146,24 +2146,24 @@
                                 {
                                     "text": "What is a key aspect of work center management policies?",
                                     "options": [
+                                        "a. Configuring VLANs",
                                         "b. Establishing guidelines for resource and security management",
                                         "c. Assigning IP addresses",
                                         "d. Encrypting network traffic",
-                                        "e. Managing satellite systems",
-                                        "a. Configuring VLANs"
+                                        "e. Managing satellite systems"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "Who typically oversees work center management policies?",
                                     "options": [
                                         "a. DHCP servers",
-                                        "d. Firewall administrators",
                                         "b. Base Functional Manager",
-                                        "e. Satellite operators",
-                                        "c. COMSEC office"
+                                        "c. COMSEC office",
+                                        "d. Firewall administrators",
+                                        "e. Satellite operators"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -2178,24 +2178,24 @@
                                 {
                                     "text": "Who is typically designated as a Career Field Functional Manager (CFM)?",
                                     "options": [
-                                        "e. A satellite operator",
                                         "a. A DHCP server operator",
-                                        "c. A network administrator",
                                         "b. A RegAF general officer or senior executive service member",
-                                        "d. A firewall technician"
+                                        "c. A network administrator",
+                                        "d. A firewall technician",
+                                        "e. A satellite operator"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a key responsibility of a Career Field Functional Manager?",
                                     "options": [
-                                        "c. Assigning IP addresses",
-                                        "e. Monitoring firewall logs",
-                                        "d. Encrypting network traffic",
                                         "a. Configuring VLANs",
-                                        "b. Ensuring specialties are equipped and developed for Air Force capabilities"
+                                        "b. Ensuring specialties are equipped and developed for Air Force capabilities",
+                                        "c. Assigning IP addresses",
+                                        "d. Encrypting network traffic",
+                                        "e. Monitoring firewall logs"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -2205,24 +2205,24 @@
                                 {
                                     "text": "What is a role of MAJCOM Functional Managers?",
                                     "options": [
-                                        "d. Encrypting communications",
-                                        "e. Managing satellite systems",
-                                        "b. Determine education and training activities for their respective specialties",
                                         "a. Configuring firewalls",
-                                        "c. Assigning static IP addresses"
+                                        "b. Determine education and training activities for their respective specialties",
+                                        "c. Assigning static IP addresses",
+                                        "d. Encrypting communications",
+                                        "e. Managing satellite systems"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What does the Course Chart Training Standard (CCTS) ensure?",
                                     "options": [
                                         "a. VLAN configuration",
-                                        "c. IP address assignments",
-                                        "e. Monitoring of network performance",
                                         "b. Provision of equipment, facilities, and instructors for training",
-                                        "d. Encryption of network traffic"
+                                        "c. IP address assignments",
+                                        "d. Encryption of network traffic",
+                                        "e. Monitoring of network performance"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -2232,24 +2232,24 @@
                                 {
                                     "text": "Who typically serves as the Base Functional Manager (BFM)?",
                                     "options": [
-                                        "b. The on-station ranking 1D7XX cyberspace superintendent or CEM",
                                         "a. A DHCP server operator",
+                                        "b. The on-station ranking 1D7XX cyberspace superintendent or CEM",
+                                        "c. A network administrator",
                                         "d. A COMSEC officer",
-                                        "e. A satellite operator",
-                                        "c. A network administrator"
+                                        "e. A satellite operator"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What function does the Base Functional Manager manage?",
                                     "options": [
-                                        "b. System analysis, programming, and security management",
-                                        "d. Firewall configuration",
-                                        "e. VLAN assignment",
                                         "a. IP address assignments",
-                                        "c. Satellite communications"
+                                        "b. System analysis, programming, and security management",
+                                        "c. Satellite communications",
+                                        "d. Firewall configuration",
+                                        "e. VLAN assignment"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         },
@@ -2259,24 +2259,24 @@
                                 {
                                     "text": "What does DAFI 36-2670 cover in Force Development Management?",
                                     "options": [
-                                        "b. Career enhancement, education, and training programs",
-                                        "e. Satellite system management",
                                         "a. Firewall configuration",
+                                        "b. Career enhancement, education, and training programs",
                                         "c. IP address assignments",
-                                        "d. Encryption of network traffic"
+                                        "d. Encryption of network traffic",
+                                        "e. Satellite system management"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is an objective of Force Development Management?",
                                     "options": [
-                                        "b. To develop policy for the Community College of the Air Force",
-                                        "d. To monitor network traffic",
-                                        "c. To assign static IP addresses",
                                         "a. To configure firewalls",
+                                        "b. To develop policy for the Community College of the Air Force",
+                                        "c. To assign static IP addresses",
+                                        "d. To monitor network traffic",
                                         "e. To assign VLANs"
                                     ],
-                                    "correct_index": 0
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -2291,13 +2291,13 @@
                                 {
                                     "text": "What is the purpose of the PPBE process in the DoD?",
                                     "options": [
-                                        "d. To encrypt network traffic",
                                         "a. To configure firewalls",
+                                        "b. To allocate resources for mission capabilities",
                                         "c. To assign IP addresses",
-                                        "e. To manage satellite systems",
-                                        "b. To allocate resources for mission capabilities"
+                                        "d. To encrypt network traffic",
+                                        "e. To manage satellite systems"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a Program Objective Memorandum (POM)?",
@@ -2305,8 +2305,8 @@
                                         "a. A VLAN assignment plan",
                                         "b. A document outlining resource allocation decisions",
                                         "c. A firewall configuration plan",
-                                        "e. A satellite communication strategy",
-                                        "d. A COMSEC key issuance plan"
+                                        "d. A COMSEC key issuance plan",
+                                        "e. A satellite communication strategy"
                                     ],
                                     "correct_index": 1
                                 }
@@ -2318,22 +2318,22 @@
                                 {
                                     "text": "Which appropriation funds Air Force construction projects?",
                                     "options": [
-                                        "c. Operation and Maintenance (O&M)",
-                                        "e. Research, Development, Test and Evaluation (RDT&E)",
                                         "a. COMSEC funding",
                                         "b. Military Construction (MILCON)",
-                                        "d. Military Personnel (MILPERS)"
+                                        "c. Operation and Maintenance (O&M)",
+                                        "d. Military Personnel (MILPERS)",
+                                        "e. Research, Development, Test and Evaluation (RDT&E)"
                                     ],
-                                    "correct_index": 3
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What does the O&M appropriation typically fund?",
                                     "options": [
-                                        "d. Research and development",
+                                        "a. VLAN configurations",
                                         "b. Equipment maintenance and civilian salaries",
-                                        "e. Satellite communications",
                                         "c. Military personnel salaries",
-                                        "a. VLAN configurations"
+                                        "d. Research and development",
+                                        "e. Satellite communications"
                                     ],
                                     "correct_index": 1
                                 }
@@ -2345,24 +2345,24 @@
                                 {
                                     "text": "What is an Unfunded Requirement (UFR)?",
                                     "options": [
-                                        "c. A fully funded program in the execution plan",
+                                        "a. A VLAN assignment plan",
                                         "b. A program need not included in the annual execution plan",
-                                        "e. A satellite communication strategy",
+                                        "c. A fully funded program in the execution plan",
                                         "d. A firewall configuration plan",
-                                        "a. A VLAN assignment plan"
+                                        "e. A satellite communication strategy"
                                     ],
                                     "correct_index": 1
                                 },
                                 {
                                     "text": "What is an example of a nondiscretionary cost in UFRs?",
                                     "options": [
-                                        "e. Equipment upgrades",
-                                        "d. Optional training programs",
-                                        "b. Utility bills",
                                         "a. Firewall maintenance",
-                                        "c. Travel expenses"
+                                        "b. Utility bills",
+                                        "c. Travel expenses",
+                                        "d. Optional training programs",
+                                        "e. Equipment upgrades"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         }
@@ -2377,24 +2377,24 @@
                                 {
                                     "text": "What defines a project in project management?",
                                     "options": [
-                                        "e. A static IP address assignment",
+                                        "a. A firewall configuration",
+                                        "b. A temporary endeavor to create a unique product or service",
                                         "c. A permanent operation",
                                         "d. A routine maintenance task",
-                                        "a. A firewall configuration",
-                                        "b. A temporary endeavor to create a unique product or service"
+                                        "e. A static IP address assignment"
                                     ],
-                                    "correct_index": 4
+                                    "correct_index": 1
                                 },
                                 {
                                     "text": "What is a key phase in the project management lifecycle?",
                                     "options": [
-                                        "d. Assigning IP addresses",
                                         "a. Configuring VLANs",
                                         "b. Monitoring project progress",
                                         "c. Encrypting network traffic",
+                                        "d. Assigning IP addresses",
                                         "e. Managing satellite systems"
                                     ],
-                                    "correct_index": 2
+                                    "correct_index": 1
                                 }
                             ]
                         }
